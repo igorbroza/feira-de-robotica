@@ -62,12 +62,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 120px;
+  gap: 30px;
   list-style: none;
   padding-top: 2rem;
 }
 
 .nav_btn{
+  background: linear-gradient(90deg, 
+      var(--azul-cibernetico) 0%, 
+      var(--verde-tecnologico) 100%);
+  border: 2px solid var(--azul-cibernetico);
+  border-radius: 16px;
+  padding: 0.8rem 1.5rem;
   text-decoration: none;
 }
 
@@ -255,4 +261,46 @@ body {
 
 .lista{
   list-style:circle;
+}
+
+@media (max-width: 900px) {
+    .cards-container {
+        gap: 16px;
+    }
+    .card {
+        width: 45vw;
+        min-width: 180px;
+        height: 140px;
+    }
+    .img_card {
+        max-width: 90vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .card {
+        width: 90vw;
+        min-width: 140px;
+        height: 120px;
+    }
+    .card-title {
+        font-size: 1rem;
+        padding: 12px;
+    }
+    .navbar {
+        flex-direction: column;
+        gap: 6px;
+    }
+    .img_card {
+        max-width: 98vw;
+    }
+    .section-toggle, .section-content {
+        font-size: 0.98rem;
+        padding: 10px;
+    }
 }
