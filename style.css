@@ -110,7 +110,7 @@ body {
 }
 
 .letrinhas {
-  font-size: 1.8rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--branco-neon);
   text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
