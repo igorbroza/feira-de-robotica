@@ -65,7 +65,7 @@ body {
   background: linear-gradient(90deg, var(--azul-cibernetico) 0%, var(--verde-tecnologico) 100%);
   border: 2px solid var(--azul-cibernetico);
   border-radius: 16px;
-  padding: 0.8rem 1.5rem;
+  padding: 0.4rem 0.8rem;
   text-decoration: none;
   color: var(--branco-neon);
 }
